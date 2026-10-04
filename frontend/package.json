@@ -5,14 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite",
+    "preview": "vite"
   },
   "dependencies": {
     "dexie": "^4.4.6",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "serve": "^14.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
