@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { db } from "./db/database";
 
-const API_URL = "http://localhost:8080/api/tasks";
+const API_URL = "https://clever-gratitude-production-147c.up.railway.app/api/tasks";
 
 const uiStyles = `
   * {
